@@ -8,6 +8,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
 }
 
 li {
@@ -21,7 +22,6 @@ a {
 .wrapper {
   width: 100%;
   height: 100vh;
-  background-color: #e5e5e5;
 }
 
 .container {
@@ -200,4 +200,112 @@ a {
   letter-spacing: 0.04em;
 
   color: #ffffff;
+}
+
+.service {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.service__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service__title {
+  /* Subheading */
+  margin: auto;
+
+  width: 370px;
+  height: 88px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 121.3%;
+  /* or 44px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #1391ce;
+}
+
+.service__line {
+  /* Rectangle 7 */
+  margin: auto;
+  margin-top: 20px;
+  width: 160px;
+  height: 8px;
+
+  background: #f7ba0e;
+}
+
+.card__presets {
+  display: flex;
+  gap: 112px;
+  margin-top: 96px;
+}
+
+.presets__subtitle {
+  /* Optimised for easy use */
+
+  width: 209px;
+  height: 21px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  /* or 21px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+  color: #25468a;
+}
+
+.presets__title {
+  /* Built-in Device Presets */
+
+  width: 448px;
+  height: 43px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 134.3%;
+  /* identical to box height, or 43px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  margin-bottom: 32px;
+
+  color: #1391ce;
+}
+
+.presets__text {
+  /* Get started with HandBrake in seconds by choosing a profile optimised for your device, or choose a universal profile for standard or high quality conversions. Simple, easy, fast. For those that want more choice, tweak many basic and advanced options to improve your encodes. */
+
+  width: 448px;
+  height: 144px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  /* or 24px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* Gray 2 */
+  color: #4f4f4f;
 }
